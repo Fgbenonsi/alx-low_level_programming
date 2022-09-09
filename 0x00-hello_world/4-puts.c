@@ -11,6 +11,6 @@ int main (void)
 {
 	char str[]= "\"Programming is like building a multilingual puzzle";
 
-	put(str);
+	puts(str);
 	return (0);
 }
