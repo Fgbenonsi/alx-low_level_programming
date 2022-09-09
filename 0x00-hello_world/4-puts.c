@@ -7,7 +7,7 @@
  *
  * return -Return 0 there is no called function
  */
-int main(void)
+int main(void) /*This will return to 0 */
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
