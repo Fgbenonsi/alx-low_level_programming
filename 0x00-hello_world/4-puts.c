@@ -5,12 +5,10 @@
  * main - Main function for entry
  *
  *
- * return - Return 0 everytime (success)
+ * return: Return 0 everytime (success)
  */
 
-int main(void) /**
-		 *Return value is always 0 (success) 
-		 */
+int main(void)
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
