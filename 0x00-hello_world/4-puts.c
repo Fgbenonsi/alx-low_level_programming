@@ -2,12 +2,11 @@
 #include <string.h>
 
 /**
- * main - Main function for entry
+ * main - Entry point
  *
  *
- * return: Return 0 everytime (success)
+ * return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
