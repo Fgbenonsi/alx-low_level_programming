@@ -8,7 +8,9 @@
  * return - Return 0 everytime (success)
  */
 
-int main(void) /* Return value is always 0 (success) */
+int main(void) /**
+		 *Return value is always 0 (success) 
+		 */
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
