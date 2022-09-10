@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Provide: prind the last digit of n status: 0, greater that five or less than six and not 0
+ * Provide: print the last digit of n status
  *
  * Return: Always 0 (Success)
  */
@@ -20,7 +20,6 @@ int main(void)
 
 	/*My code goes here */
 	digit = n % 10; /*calculate the last digit*/
-	
 	if (digit > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, digit);
 	else if (digit == 0)
