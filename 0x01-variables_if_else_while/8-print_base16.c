@@ -19,7 +19,7 @@ int main(void)
 			y += 39;
 		++y;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
