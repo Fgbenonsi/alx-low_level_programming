@@ -13,8 +13,8 @@ int main(void)
 	int x;
 
 	for (x = 0; x < 8; ++x)
-		_putchar(b[x]);
-	_putchar('\n');
+		putchar(b[x]);
+	putchar('\n');
 
 	return (0);
 }
