@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	char b = _putchar;
+	char b[] = "_putchar";
+	int x;
 
-	while(b)
-	{
-		pintf(b);
-	}
+	for (x = 0; x < 8; ++x)
+		_putchar(b[x]);
+	_putchar('\n');
 
 	return (0);
 }
