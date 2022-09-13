@@ -9,12 +9,14 @@
  */
 int main(void)
 {
-	x = 0;
+	char b = "_putchar";
 
-	while(x = 0)
+	while(b)
 	{
-		printf("_putchar\n");
-		++x;
+		_putchar(b);
+		++b;
 	}
+	_putchar('\n');
+
 	return (0);
 }
