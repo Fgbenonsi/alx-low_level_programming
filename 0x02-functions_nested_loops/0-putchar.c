@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	char b = "_putchar";
+	char b = _putchar;
 
 	while(b)
 	{
-		pintf("b\n");
+		pintf(b);
 	}
 
 	return (0);
