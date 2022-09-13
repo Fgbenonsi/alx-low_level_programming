@@ -13,10 +13,8 @@ int main(void)
 
 	while(b)
 	{
-		_putchar(b);
-		++b;
+		pintf("b\n");
 	}
-	_putchar('\n');
 
 	return (0);
 }
