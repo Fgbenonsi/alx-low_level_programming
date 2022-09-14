@@ -1,11 +1,11 @@
 #include"main.h"
 
 /**
- * _isaplha - ajust character in lowercase and uppercase
+ * _isalpha - check character in both lowercase and uppercase
  *
  * @c: input from other function
  *
- * Return: return 1 if it is c otherwise always 0 (Success)
+ * Return: 1 if c else 0 (Success)
  */
 
 int _isalpha(int c)
