@@ -1,4 +1,4 @@
-#include"main"
+#include"main.h"
 
 /**
  * _isaplha - ajust character in lowercase and uppercase
