@@ -3,15 +3,12 @@
 /**
  * main - Entry point
  *
- * print all a to z
+ * print_alphabet - print in lower case a to z
  *
  * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
-	/**
-	 * good to print alphabet
-	 */
 {
 	int b;
 
