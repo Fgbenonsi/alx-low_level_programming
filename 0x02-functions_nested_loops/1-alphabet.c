@@ -1,12 +1,9 @@
 #include"main.h"
 
 /**
- * main - Entry point
- *
- * print_alphabet - use in _putchar funtion to print in lower case a to z
- *
- * Return: Always 0 (Success)
+ * print_alphabet - use the _putchar function to print a to z
  */
+
 void print_alphabet(void)
 {
 	int b;
