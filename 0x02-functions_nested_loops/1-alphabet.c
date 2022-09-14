@@ -9,6 +9,9 @@
  */
 
 void print_alphabet(void)
+	/**
+	 * good to print alphabet
+	 */
 {
 	int b;
 
