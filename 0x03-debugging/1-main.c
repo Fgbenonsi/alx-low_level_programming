@@ -1,16 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - print infinte loop
- *
- * Return: Always 0 (Success)
+ * main - causes an infinite loop
+ * Return: 0
  */
-
 int main(void)
 {
 	int i;
 
-	ptintf("Infinite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 
 	i = 0;
 	/*
