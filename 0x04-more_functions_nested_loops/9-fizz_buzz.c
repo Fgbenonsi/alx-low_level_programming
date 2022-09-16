@@ -1,30 +1,39 @@
 #include <stdio.h>
 
 /**
- * main - print either number
- *
- * Return: Always 0 (Success)
+ * main - prints numbers
+ * Return: return 0
  */
 
 int main(void)
 {
-	int n - 1;
+	int a = 1;
 
-	while (n++ < 100)
+	while (a <= 1001)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if (a % 3 == 0 && a % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
-		else if ((n % 3) == 0)
+		else if (a % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
-		else if ((n % 5) == 0)
+		else if (a % 5 == 0)
 		{
-			if (n != 100)
-			{
-				printf("Buzz ");
-			}
-			else
-			{
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%d", a);
+		}
+		if (a != 100)
+		{
+			putchar(' ');
+		}
+
+		a++;
+	}
+	putchar('\n');
+	return (0);
+}
