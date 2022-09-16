@@ -9,7 +9,7 @@
  * Return: returns nothing
  */
 
-void print_diagonal(void)
+void print_diagonal(int n)
 {
 	int l, s;
 
