@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
- * reset_to_98 - resets to 98 
- * @n: factor
+ * rest_to_98 - reset the value to 98
+ * @n: parameter
  * Return: nothing
  */
 
