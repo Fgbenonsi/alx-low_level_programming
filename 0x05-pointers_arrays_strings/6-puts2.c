@@ -15,6 +15,7 @@ void puts2(char *str)
 	{
 		if (x % 2 == 0)
 			putchar(*(str + x));
+		x++;
 	}
 	putchar(10);
 }
