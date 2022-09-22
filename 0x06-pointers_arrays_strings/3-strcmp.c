@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _strcmp - function used to compare string
- * @s1: first string
- * @s2: second string
- * Retrurn: returns 0 if s1==s2; negative n if s1<s2; positive if s1>s2
+ * _strcmp - compare
+ * @s1: first params
+ * @s2: second params
+ * Return: return difference
  */
 
 int _strcmp(char *s1, char *s2)
 {
 	int x;
-	int v;
+	int V;
 
 	x = 0;
 
@@ -18,10 +18,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		x++;
 	}
-	
-	v = s1[x] - s2[x];
-
-	return (v);
+	V = s1[x] - s2[x];
+	return (V);
 }
-
 
