@@ -1,28 +1,27 @@
 #include "main.h"
 
 /**
- * reverse_arry - reverse arrays
- * @a: first parameter
- * @n: second parameter
+ * reverve_array - reverse
+ * @a: first fac
+ * @n: second fac
  * Return: nothing
  */
 
 void reverse_array(int *a, int n)
 {
-	int x;
-	int y;
-	int R;
+	int i;
+	int j;
+	int tmp;
 
-	x = 0;
-	y = n - 1;
+	i = 0;
+	j = n - 1;
 
-	while (x < y)
+	while (i < j)
 	{
-		R = a[x];
-		a[x] = a[y];
-		a[y] = R;
-		x++;
-		y--;
+		tmp = a[i];
+		a[i] = a[j];
+		a[j] = tmp;
+		i++;
+		j--;
 	}
 }
-
