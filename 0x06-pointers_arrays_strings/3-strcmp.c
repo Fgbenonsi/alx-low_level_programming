@@ -9,30 +9,18 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int x = 0, dif = 0;
+	int x;
+	int v;
 
-	while (x)
+	x = 0;
+
+	while (s1[x] == s2[x] && (s1[x] != '\0' || s2[x] != '\0'))
 	{
-		if (s1[x] == '\0' && s2[x] == '\0')
-			break;
-		else if (s1[x] == '\0')
-		{
-			dif = s2[x];
-			break;
-		}
-		else if (s2[x] == '\0')
-		{
-			dif = s1[x];
-			break;
-		}
-		else if (s1[x] != s2[x])
-		{
-			dif = s1[x] - s2[x];
-			break;
-		}
-		else
-			x++;
+		x++;
 	}
-	return (dif);
+	v = s1[x] - s2[x];
+
+	return (v);
 }
+
 
