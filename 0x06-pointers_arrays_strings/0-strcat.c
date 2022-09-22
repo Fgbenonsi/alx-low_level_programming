@@ -2,6 +2,7 @@
 
 /**
  * _strcat - concatenates strings
+ *
  * @dest: string to be appended
  * @scr: string to be concatenated
  *
