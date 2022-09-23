@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * leet - leet encorder
@@ -7,7 +6,7 @@
  * Return: address of the string
  */
 
-char *leet(char *str)
+char *leet(char *)
 {
 	int i = 0;
 
