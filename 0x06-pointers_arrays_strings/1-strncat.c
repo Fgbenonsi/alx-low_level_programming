@@ -1,5 +1,4 @@
 #include"main.h"
-
 /**_strncat - concatenates two strings and add n numbers
  * @dest: string to be appended
  * @src: the surce of the string
@@ -18,5 +17,5 @@ char *_strncat(char *dest, char *src, int n)
 		dest[dest_len++] = src[index];
 	
 	return (dest);
-
 }
+
