@@ -3,6 +3,7 @@
 /**
  * cap_string - function that put letter in capital
  * @str: string to capitalize
+ *
  * Return: cap string
  */
 
