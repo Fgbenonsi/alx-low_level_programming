@@ -6,7 +6,7 @@
  * Return: address of the string
  */
 
-char *leet(char *str)
+char *leet(char *)
 {
 	int i = 0;
 
