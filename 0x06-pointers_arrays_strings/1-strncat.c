@@ -1,34 +1,21 @@
-#include "main.h"
+#include"main.h"
 
-/**
- * _strncat - concatenates string but add n numbers
- * @dest: the string to be appended
- * @src: the string to be concatenated
- * n: factor to compare with ind
- * Return: returns dest
+/**_strncat - concatenates two strings and add n numbers
+ * @dest: string to be appended
+ * @src: the surce of the string
+ * @n: parameter n
+ * Return: concatinated string
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int x;
-	int u;
+	int index = 0, dest_len = 0;
 
-	x = 0;
+	while (dest[index++])
+		dest_len++;
 
-	for (u = 0; u < 1000; u++)
-	{
-		if (dest[u] == '\0')
-		{
-			break;
-		}
-		x++;
-	}
+	for (index = 0; src[index] && index < n; index++)
+		dest[dest_len++] = src[index];
 
-	for (u = 0; src[x] != '\0' && u < n; u++)
-	{
-		dest[x + u] = src[u];
-	}
-	dest[x + u] = '\0';
 	return (dest);
 }
-
