@@ -8,12 +8,12 @@
 
 char *leet(char *)
 {
-	int i = 0;
+	int u = 0;
 
-	while (str[i] != '\0')
+	while (str[u] != '\0')
 	{
-		str[i] = transform(str[i]);
-		i++;
+		str[u] = transform(str[u]);
+		u++;
 	}
 	return (str);
 }
@@ -28,17 +28,17 @@ char transform(char x)
 {
 	char mapping_low[8] = {'o', 'l', '\0', 'e', 'a', '\0', '\0', 't'};
 	char mapping_upper[8] = {'O', 'L', '\0', 'E', 'A', '\0', '\0', 'T'};
-	int i = 0;
+	int u = 0;
 	char replacement = x;
 
-	while (i < 8)
+	while (u < 8)
 	{
-		if (x == mapping_low[i] || x == mapping_upper[i])
+		if (x == mapping_low[u] || x == mapping_upper[u])
 		{
-			replacement = i + '0';
+			replacement = u + '0';
 			break;
 		}
-		i++;
+		u++;
 	}
 	return (replacement);
 }
