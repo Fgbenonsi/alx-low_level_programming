@@ -5,6 +5,7 @@
  * @s: address to memory
  * @b: char to be used
  * @n: num of byte to be used
+ *
  * Return: memory block
  */
 
@@ -17,3 +18,4 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
+
