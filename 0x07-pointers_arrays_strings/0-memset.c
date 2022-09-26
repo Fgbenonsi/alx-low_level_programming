@@ -1,13 +1,12 @@
-#include"main.h"
-#include<stdio.h>
+#include "main.h"
 
 /**
- * _memset - fills a memory with a constant byte
- * @s: address to memory
- * @b: char to be used
- * @n: num of byte to be used
+ * _memset - fills memo
+ * @s: address
+ * @b: character
+ * @n: num of bytes
  *
- * Return: memory block
+ * Return: pointer
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -19,4 +18,3 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
-
