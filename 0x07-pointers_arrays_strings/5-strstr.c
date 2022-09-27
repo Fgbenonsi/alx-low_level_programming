@@ -6,6 +6,7 @@
  * @needle: substring to find in haystack
  * Return: pointer to beginning of haystack or null if no match
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int x = 0, y = 0;
