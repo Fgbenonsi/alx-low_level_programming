@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * _strspn - function that get length of a prefix substring
- * @s: string to check
- * @accept: string to check again
- * Return: number of bytes
+ * _strspn - gets length of prefix substring
+ * @s: the string to check
+ * @accept: the string tocheck again
+ * Return: num of bytes
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned x, y;
-	
+	unsigned int x, y;
+
 	for (x = 0; s[x]; x++)
 	{
 		for (y = 0; accept[y]; y++)
